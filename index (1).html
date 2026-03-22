@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreekanth S — AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles (1).css">
+</head>
+
+<body>
+
+    <!-- ══ INTRO ══ -->
+    <div class="intro-screen">
+        <div class="intro-words">
+            <span class="word word-1">Learn</span>
+            <span class="word word-2">Leverage</span>
+            <span class="word word-3">Lead</span>
+        </div>
+    </div>
+
+    <!-- ══ INVISIBLE ANCHORS that drive the CSS :target magic ══ -->
+    <span id="portal-open"></span>
+    <span id="portal-close"></span>
+
+    <!-- ══ HERO ══ -->
+    <main class="main-content" id="home">
+        <div class="light-rays"></div>
+        <div class="silhouette-glow"></div>
+        <div class="silhouette-wrap">
+            <img class="silhouette-img" src="bg1shadow.png" alt="" aria-hidden="true" />
+        </div>
+        <div class="tagline">
+            <p>Building <em>smart solutions</em><br>
+                where technology learns<br>
+                and <em>creativity leads</em>.
+            </p>
+        </div>
+        <div class="hero">
+            <h1 class="hero-title">SREEKANTH</h1>
+            <p class="hero-subtitle">AI Engineer &nbsp;|&nbsp; Developer &nbsp;|&nbsp; Problem Solver</p>
+
+            <a class="enter-btn" href="#portal-open">About Me</a>
+        </div>
+    </main>
+
+    <!-- ══════════════════════════════════════════════════════
+     PORTFOLIO PANEL
+     The radio inputs MUST be direct siblings of .inner-nav
+     and .tab-panels so the ~ general sibling combinator works.
+══════════════════════════════════════════════════════ -->
+    <div class="portfolio-view">
+
+        <div class="panel-topbar">
+            <a class="back-btn" href="#portal-close">← Back</a>
+        </div>
+
+        <input type="radio" name="ptab" id="pt-about" checked>
+        <input type="radio" name="ptab" id="pt-edu">
+        <input type="radio" name="ptab" id="pt-skills">
+        <input type="radio" name="ptab" id="pt-projects">
+        <input type="radio" name="ptab" id="pt-publications">
+        <input type="radio" name="ptab" id="pt-certificates">
+        <input type="radio" name="ptab" id="pt-contact">
+
+        <nav class="inner-nav">
+            <label for="pt-about">About</label>
+            <label for="pt-edu">Education</label>
+            <label for="pt-skills">Skills</label>
+            <label for="pt-projects">Projects</label>
+            <label for="pt-publications">Publications</label>
+            <label for="pt-certificates">Certificates</label>
+            <label for="pt-contact">Contact</label>
+        </nav>
+
+        <div class="tab-panels">
+
+            <div class="tab-panel" id="panel-about">
+                <div class="p-inner">
+                    <span class="p-label">001 — Profile</span>
+                    <h2 class="p-title">About Me</h2>
+                    <div class="about-grid">
+                        <div class="about-body">
+                            <p>I'm a <strong>BTech Artificial Intelligence and Data Science</strong> student at Amrita
+                                Vishwa Vidyapeetham, Palakkad — driven by a deep curiosity for how machines can learn,
+                                reason, and assist.</p>
+                            <p>My work sits at the intersection of <strong>Deep Learning, Computer Vision, and
+                                    Generative AI</strong>. I'm passionate about identifying gaps in current research
+                                and developing intelligent systems that solve real-world problems.</p>
+                            <p>Continuously experimenting with <strong>ML models, LLM fine-tuning, and IoT-integrated AI
+                                    solutions</strong> — I believe the best engineers are those who never stop being
+                                students.</p>
+                            <p>Beyond the screen: I play instrumental keyboard, hit the gym, and spend time exploring
+                                the latest breakthroughs in AI research.</p>
+                        </div>
+                        <div class="about-meta">
+                            <div class="meta-row">
+                                <h5>Location</h5>
+                                <p>Palakkad, Kerala 678551, India</p>
+                            </div>
+                            <div class="meta-row">
+                                <h5>Contact</h5>
+                                <p><a href="mailto:xsreekanth756@gmail.com">xsreekanth756@gmail.com</a><br>
+                                    <a href="tel:+917306119682">+91 73061 19682</a>
+                                </p>
+                            </div>
+                            <div class="meta-row">
+                                <h5>Online</h5>
+                                <p><a href="https://linkedin.com/in/Sreekanth-S-MA242005" target="_blank">LinkedIn
+                                        ↗</a><br>
+                                    <a href="https://github.com/sree-24066" target="_blank">GitHub ↗</a>
+                                </p>
+                            </div>
+                            <div class="meta-row">
+                                <h5>Languages</h5>
+                                <div class="ctag-row">
+                                    <span class="ctag">English</span><span class="ctag">Malayalam</span>
+                                    <span class="ctag">Hindi</span><span class="ctag">Tamil</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-edu">
+                <div class="p-inner">
+                    <span class="p-label">002 — Academic</span>
+                    <h2 class="p-title">Education</h2>
+                    <div class="edu-item">
+                        <div class="edu-year">2024 — Present</div>
+                        <div class="edu-info">
+                            <h3>B.Tech — Artificial Intelligence <span
+                                    style="font-family:'Poppins',sans-serif;">&amp;</span> Data Science</h3>
+                            <p>Amrita Vishwa Vidyapeetham, Amritapuri, Clappana, Kerala </p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-year">2023</div>
+                        <div class="edu-info">
+                            <h3>Higher Secondary Education</h3>
+                            <p>ST Paul's HSS</p>
+                            <p class="edu-score">97%</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-year">2022</div>
+                        <div class="edu-info">
+                            <h3>BA Hindi</h3>
+                            <p>Kerala Hindi Prachar Sabha</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-year">2021</div>
+                        <div class="edu-info">
+                            <h3>Secondary Education</h3>
+                            <p>Nilgiri Public School</p>
+                            <p class="edu-score">88%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-skills">
+                <div class="p-inner">
+                    <span class="p-label">003 — Technical</span>
+                    <h2 class="p-title">Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-cat">
+                            <h4>Languages</h4>
+                            <div class="stags"><span class="stag">Python</span><span class="stag">Java</span><span
+                                    class="stag">C++</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Web Development</h4>
+                            <div class="stags"><span class="stag">HTML</span><span class="stag">CSS</span><span
+                                    class="stag">React.js</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>AI / ML Tools</h4>
+                            <div class="stags"><span class="stag">PyTorch</span><span class="stag">Hugging
+                                    Face</span><span class="stag">OpenCV</span><span class="stag">Scikit-learn</span>
+                            </div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>LLM Tools</h4>
+                            <div class="stags"><span class="stag">LangChain</span><span class="stag">TRL</span><span
+                                    class="stag">Unsloth</span><span class="stag">Gradio</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Databases</h4>
+                            <div class="stags"><span class="stag">MySQL</span><span class="stag">MongoDB</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Data Science &amp; Analytics</h4>
+                            <div class="stags"><span class="stag">KNIME</span><span class="stag">Pandas</span><span
+                                    class="stag">NumPy</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Dev Tools</h4>
+                            <div class="stags"><span class="stag">Git</span><span class="stag">Google Colab</span><span
+                                    class="stag">Jupyter</span><span class="stag">MATLAB</span><span class="stag">VS
+                                    Code</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Operating Systems</h4>
+                            <div class="stags"><span class="stag">Linux</span><span class="stag">Windows</span></div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Documentation</h4>
+                            <div class="stags"><span class="stag">LaTeX</span><span class="stag">MS Word</span><span
+                                    class="stag">PowerPoint</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-projects">
+                <div class="p-inner">
+                    <span class="p-label">004 — Work</span>
+                    <h2 class="p-title">Projects</h2>
+                    <div class="proj-grid">
+                        <div class="proj-card">
+                            <div class="proj-card-inner">
+                                <div class="proj-card-front">
+                                    <img src="project_1.png" class="proj-cover-img" alt="">
+                                    <div class="proj-num">01</div>
+                                    <h3>Smart Vision Guided Robotic Arm</h3>
+                                </div>
+                                <div class="proj-card-back">
+                                    <h3>Smart Vision Guided Robotic Arm</h3>
+                                    <ul class="proj-bullets">
+                                        <li>YOLO-based object detection (YOLOv11s)</li>
+                                        <li>Real-time bounding box detection</li>
+                                        <li>Integrated with robotic actuator control</li>
+                                        <li>Computer vision pipeline implementation</li>
+                                    </ul>
+                                    <div class="proj-tag-wrap">
+                                        <span class="proj-tag">Computer Vision</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="proj-card">
+                            <div class="proj-card-inner">
+                                <div class="proj-card-front">
+                                    <img src="project_2.jpg" class="proj-cover-img" alt="">
+                                    <div class="proj-num">02</div>
+                                    <h3>IoT Based Wild Animal Detection &amp; Alert System</h3>
+                                </div>
+                                <div class="proj-card-back">
+                                    <h3>IoT Based Wild Animal Detection &amp; Alert System</h3>
+                                    <ul class="proj-bullets">
+                                        <li>PIR/motion sensor integration</li>
+                                        <li>Microcontroller (Arduino/ESP)</li>
+                                        <li>Wireless alert system (GSM/WiFi)</li>
+                                        <li>Low-power rural deployment</li>
+                                    </ul>
+                                    <div class="proj-tag-wrap">
+                                        <span class="proj-tag">IoT · AI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="proj-card">
+                            <div class="proj-card-inner">
+                                <div class="proj-card-front">
+                                    <img src="project_3.png" class="proj-cover-img" alt="">
+                                    <div class="proj-num">03</div>
+                                    <h3>Goods Vehicle Management &amp; Booking System</h3>
+                                </div>
+                                <div class="proj-card-back">
+                                    <h3>Goods Vehicle Management &amp; Booking System</h3>
+                                    <ul class="proj-bullets">
+                                        <li>Java Swing GUI application</li>
+                                        <li>MySQL database integration</li>
+                                        <li>CRUD operations for logistics</li>
+                                        <li>Query optimization &amp; tracking logic</li>
+                                    </ul>
+                                    <div class="proj-tag-wrap">
+                                        <span class="proj-tag">Java · MySQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="proj-card">
+                            <div class="proj-card-inner">
+                                <div class="proj-card-front">
+                                    <img src="project_4.jpg" class="proj-cover-img" alt="">
+                                    <div class="proj-num">04</div>
+                                    <h3>Battery vs Solar Powered Rain Alarm System</h3>
+                                </div>
+                                <div class="proj-card-back">
+                                    <h3>Battery vs Solar Powered Rain Alarm System</h3>
+                                    <ul class="proj-bullets">
+                                        <li>Rain sensor detection circuit</li>
+                                        <li>Dual power source (battery + solar)</li>
+                                        <li>Voltage switching logic</li>
+                                        <li>Simulated in Tinkercad &amp; Proteus</li>
+                                    </ul>
+                                    <div class="proj-tag-wrap">
+                                        <span class="proj-tag">Electronics · IoT</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-publications">
+                <div class="p-inner">
+                    <span class="p-label">005 — Research</span>
+                    <h2 class="p-title">Publications</h2>
+                    <div class="pub-card">
+                        <h3>A Hybrid Framework for Human–Wildlife Conflict Mitigation Using Infrared-Triggered
+                            YOLO and IoT Alerting</h3>
+                        <p>Presented at <strong style="color:var(--silver)">IEEE SCEECS'26 Conference</strong>,
+                            IEEE MANIT Student Branch.<br>Paper ID: 474 &nbsp;·&nbsp; Jan 31 – Feb 1, 2026</p>
+                        <a href="https://ieeexplore.ieee.org/document/11429959" target="_blank"
+                            class="pub-badge">Published in IEEE Xplore ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-certificates">
+                <div class="p-inner">
+                    <span class="p-label">006 — Credentials</span>
+                    <h2 class="p-title">Certificates <span style="font-family:'Poppins',sans-serif;">&amp;</span>
+                        Workshops</h2>
+                    <div class="about-grid">
+                        <div>
+                            <p class="sub-h" style="margin-top:0;">Certificates</p>
+                            <div class="cert-list">
+                                <div class="cert-item">
+                                    <div class="cert-dot"></div>
+                                    <div>
+                                        <h4>MATLAB Onramp</h4>
+                                        <p>MathWorks Academy</p>
+                                    </div>
+                                </div>
+                                <div class="cert-item">
+                                    <div class="cert-dot"></div>
+                                    <div>
+                                        <h4>Deep Learning in Python</h4>
+                                        <p>DataCamp</p>
+                                    </div>
+                                </div>
+                                <div class="cert-item">
+                                    <div class="cert-dot"></div>
+                                    <div>
+                                        <h4>Communication Skills Course</h4>
+                                        <p>TCS iON</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="sub-h" style="margin-top:0;">Workshops</p>
+                            <div class="cert-list">
+                                <div class="cert-item">
+                                    <div class="cert-dot"></div>
+                                    <div>
+                                        <h4>Generative AI Workshop</h4>
+                                        <p>Roshini Kesavan — CEO, Binari Intelligence</p>
+                                    </div>
+                                </div>
+                                <div class="cert-item">
+                                    <div class="cert-dot"></div>
+                                    <div>
+                                        <h4>AI Tools &amp; ChatGPT Workshop</h4>
+                                        <p>be10x</p>
+                                    </div>
+                                </div>
+                                <div class="cert-item">
+                                    <div class="cert-dot"></div>
+                                    <div>
+                                        <h4>Text-to-Intelligence: LLM Training Camp</h4>
+                                        <p>LatentView Analytics — RAG &amp; Gradio (ACM Accredited)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-contact">
+                <div class="p-inner">
+                    <span class="p-label">007 — Connect</span>
+                    <h2 class="p-title">Get In Touch</h2>
+                    <div class="contact-center">
+                        <p class="contact-desc">Open to collaborations, research discussions, and interesting
+                            problems.<br>Let's build something intelligent together.</p>
+                        <div class="cta-row">
+                            <a class="cta-btn" href="mailto:xsreekanth756@gmail.com"><span>✉ Email Me</span></a>
+                            <a class="cta-btn" href="https://linkedin.com/in/Sreekanth-S-MA242005"
+                                target="_blank"><span>in LinkedIn</span></a>
+                            <a class="cta-btn" href="https://github.com/sree-24066" target="_blank"><span>⌥
+                                    GitHub</span></a>
+                        </div>
+                    </div>
+                    <hr class="p-footer">
+                    <p class="p-copy">© 2026 Sreekanth S &nbsp;·&nbsp; Palakkad, Kerala &nbsp;·&nbsp; Built with
+                        precision</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
